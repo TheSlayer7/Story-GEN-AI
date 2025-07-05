@@ -1,6 +1,7 @@
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 from transformers import GPT2LMHeadModel, GPT2Tokenizer
+import torch
 
 
 app = Flask(__name__)
