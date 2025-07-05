@@ -10,40 +10,56 @@ This project is created for educational purposes only. It generates AI-based sto
 
 I thank all these open-source libraries and their contributors for making this project possible.
  **Steps to Run the AI Story Generator Locally :**
- How to Run the Project Locally
-Clone the Repository
+ ## 🚀 How to Run the AI Story Generator Locally
+
+### 1. Clone the Repository
 
 bash
-Copy
-Edit
 git clone https://github.com/YourUsername/Story-GEN-AI.git
 cd Story-GEN-AI
-Set Up the Python Backend
+
+
+### 2. Create and Activate Virtual Environment
 
 bash
-Copy
-Edit
+# Create virtual environment
 python -m venv venv
-venv\Scripts\activate     # For Windows  
-# OR  
-source venv/bin/activate  # For macOS/Linux
 
+# Activate (use the appropriate command below)
+
+# Windows
+venv\Scripts\activate
+
+# macOS/Linux
+source venv/bin/activate
+
+
+### 3. Install Python Dependencies
+
+bash
 pip install -r requirements.txt
+
+
+### 4. Run the Flask Backend
+
+bash
 cd backend
 python app.py
-Set Up the Frontend
-Open a new terminal and run:
+
+
+### 5. Set Up and Start the Frontend
 
 bash
-Copy
-Edit
-cd frontend
-npm install
-npm run dev
-Open in Browser
-Go to:
+# Open a new terminal
+cd ../frontend
 
-arduino
-Copy
-Edit
-http://localhost:5173
+# Install frontend dependencies
+npm install
+
+# Start the frontend server
+npm run dev
+
+
+### 6. Open in Browser
+
+Go to: [http://localhost:5173](http://localhost:5173)
