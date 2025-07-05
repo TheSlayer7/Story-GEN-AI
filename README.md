@@ -14,52 +14,65 @@ I thank all these open-source libraries and their contributors for making this p
 
 ### 1. Clone the Repository
 
-bash
+```bash
 git clone https://github.com/TheSlayer7/Story-GEN-AI.git
 cd Story-GEN-AI
+```
 
+---
 
 ### 2. Create and Activate Virtual Environment
 
-bash
-# Create virtual environment
+```bash
+
 python -m venv venv
+```
 
-# Activate (use the appropriate command below)
+**Activate it:**
 
-# Windows
-venv\Scripts\activate
+- **Windows**
+  ```bash
+  venv\Scripts\activate
+  ```
 
-# macOS/Linux
-source venv/bin/activate
+- **macOS/Linux**
+  ```bash
+  source venv/bin/activate
+  ```
 
+---
 
 ### 3. Install Python Dependencies
 
-bash
+```bash
 pip install -r requirements.txt
+```
 
+---
 
 ### 4. Run the Flask Backend
 
-bash
+```bash
 cd backend
 python app.py
+```
 
+---
 
 ### 5. Set Up and Start the Frontend
 
-bash
-# Open a new terminal
-cd ../frontend
+Open a **new terminal** and run:
 
-# Install frontend dependencies
+```bash
+cd frontend
 npm install
-
-# Start the frontend server
 npm run dev
+```
 
+---
 
 ### 6. Open in Browser
 
-Go to: [http://localhost:5173](http://localhost:5173)
+```bash
+http://localhost:5173
+```
