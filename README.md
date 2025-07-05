@@ -15,7 +15,7 @@ I thank all these open-source libraries and their contributors for making this p
 ### 1. Clone the Repository
 
 bash
-git clone https://github.com/YourUsername/Story-GEN-AI.git
+git clone https://github.com/TheSlayer7/Story-GEN-AI.git
 cd Story-GEN-AI
 
 
