@@ -20,7 +20,6 @@ PyYAML==6.0.2
 regex==2024.11.6
 requests==2.32.4
 safetensors==0.5.3
-setuptools==80.9.0
 sympy==1.14.0
 tokenizers==0.21.2
 torch==2.7.1
